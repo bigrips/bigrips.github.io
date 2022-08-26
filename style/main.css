@@ -1,7 +1,26 @@
 body {
     background-image: url("../img/bigrips.png");
+    font-family: 'Comic Sans Ms';
+}
+
+div {
+    margin: auto;
+    width: 50%;
+    background: rgba(225,225,225,.9);
 }
 
 p {
-    background-color:aliceblue;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    text-align: center;
+    width: 512px;
+}
+
+.welcome {
+    width: 92px;
+    height: 49px;
+    background-image: url("../img/welcomer.gif");
 }
