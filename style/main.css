@@ -3,12 +3,6 @@ body {
     font-family: 'Comic Sans Ms';
 }
 
-div {
-    margin: auto;
-    width: 50%;
-    background: rgba(225,225,225,.9);
-}
-
 p {
     text-align: center;
 }
@@ -19,8 +13,28 @@ span {
     width: 512px;
 }
 
+.main {
+    margin: auto;
+    width: 50%;
+    background: rgba(225,225,225,.9);
+}
 .welcome {
     width: 92px;
     height: 49px;
     background-image: url("../img/welcomer.gif");
+}
+
+.spaceboy {
+    height: 5500px;
+    
+}
+
+#jim {
+    position:fixed;
+    left:50px;
+    top:50px;
+    width:170px;
+    transition: transform 200ms;
+    transform: rotate(7deg);
+    transform-origin:90% 90%;
 }
