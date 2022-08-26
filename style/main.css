@@ -14,19 +14,28 @@ span {
 }
 
 .main {
-    margin: auto;
-    width: 50%;
     background: rgba(225,225,225,.9);
 }
+
 .welcome {
     width: 92px;
     height: 49px;
     background-image: url("../img/welcomer.gif");
+    margin: auto;
 }
 
 .spaceboy {
     height: 5500px;
-    
+}
+
+.photo {
+    width: 50%;
+    margin: auto;
+}
+
+.center {
+    margin: auto;
+    width: 70%;
 }
 
 #jim {
