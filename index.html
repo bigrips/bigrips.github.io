@@ -1,35 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style/main.css?v=2">
-        <title>Big Rips Website Online</title>
-    </head>
-    <body>
-        <div class="main center">
-            <div class="welcome"></div>
-            <p>Welcome to my computer website, listen to my music on <a href="https://bigrips.bandcamp.com/">Bandcamp</a> or on <a href="https://open.spotify.com/artist/3WOFEfenFBehdOr6juhFJF?si=zRcmdkE7SMWELsk1RJmQpg">Spotify</a></p>
-            <div class="photo">
-                <img src="img/bandphoto.png"/>
-                <span>BigRipsOfficialBandPhoto.bmp</span>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Rips Online Computer Site</title>
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-                <img src="img/cools.jpg" />
-                <span>TheMessiah.TIFF</span>
-                <div class="spaceboy">
-                </div>
-                <div>SOMEBODY STOP ME</div>
-            </div>
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="img/FF.png" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="img/FF.png" target="_blank">
+            <img src="img/FF.png" alt="Profile Picture">
+          </a>
         </div>
-        <div id="jim"><img src="img/jim.png" id="mask"></div>
-    </body>
+        <div class="popup-quote">
+          Somebody stop me...like The Mask.
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      Big Rips Independent Guitar Based Rock And Roll Music Web Page - Fun Face Out Now!
+    </div>
+
+    <div id="links">
+      <a class="link" href="https://bigrips.bandcamp.com/album/fun-face" target="_blank">
+        <i class="fab fa-bandcamp">&nbsp;</i>Fun Face on Bandcamp (buy a tape)
+      </a>
+      <a class="link" href="https://open.spotify.com/album/5Bz9wRtxqmPcxXgDeJGWwc?si=NP36AIiATdyyimm_t4K1mw" target="_blank">
+        <i class="fab fa-spotify">&nbsp;</i>Fun Face on Spotify
+      </a>
+      <a class="link" href="https://bigrips.bandcamp.com/" target="_blank">
+        <i class="fab fa-bandcamp">&nbsp;</i>Bandcamp profile
+      </a>
+      <a class="link" href="https://open.spotify.com/artist/3WOFEfenFBehdOr6juhFJF?si=njwZB_dRS-SyfYvzQ5yiiQ" target="_blank">
+        <i class="fab fa-spotify">&nbsp;</i>Spotify Profile
+      </a>
+      <a class="link" href="https://www.instagram.com/bigripsband/" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+    </div>
+    <div id="jim"><img src="img/jim.png" id="mask"></div>
+  </body>
 </html>
-
-<script>
-    window.onscroll = function () {
-        scrollRotate();
-    };
-
-function scrollRotate() {
-    let image = document.getElementById("jim");
-        image.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
-    }
-</script>
