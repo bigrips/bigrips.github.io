@@ -805,7 +805,7 @@ body {
     position:fixed;
     left:50px;
     top:50px;
-    width:170px;
+    width:50px;
     transition: transform 200ms;
     transform: rotate(7deg);
     transform-origin:90% 90%;
