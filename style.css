@@ -800,13 +800,3 @@ body {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
-
-#jim {
-    position:fixed;
-    left:50px;
-    top:50px;
-    width:50px;
-    transition: transform 200ms;
-    transform: rotate(7deg);
-    transform-origin:90% 90%;
-}
